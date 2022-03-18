@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "sk403-003-bucket"
-    key    = "terraform/backend"
+    key    = "terraform/backend-staging"
     region = "us-west-2"
   }
 }
